@@ -65,6 +65,8 @@ namespace dlech.SshAgentLib.WinForms
             mOpenFileDialogMap = new Dictionary<OpenFileDialog, XPOpenFileDialog>();
             InitializeComponent();
 
+            dataGridView.HandleCreated += DataGridView_HandleCreated;
+
             if (Type.GetType("Mono.Runtime") != null)
             {
                 addKeyButton.ImageScaling = ToolStripItemImageScaling.None;
@@ -74,6 +76,14 @@ namespace dlech.SshAgentLib.WinForms
                 lockAgentButton.ImageScaling = ToolStripItemImageScaling.None;
                 unlockAgentButton.ImageScaling = ToolStripItemImageScaling.None;
                 copyPublicKeyButton.ImageScaling = ToolStripItemImageScaling.None;
+            }
+        }
+
+        private void DataGridView_HandleCreated(object sender, EventArgs e)
+        {
+            foreach (DataGridViewColumn column in dataGridView.Columns)
+            {
+                column.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
             }
         }
 

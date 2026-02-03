@@ -271,7 +271,7 @@
             // 
             // confirmDataGridViewCheckBoxColumn
             // 
-            this.confirmDataGridViewCheckBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.confirmDataGridViewCheckBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.confirmDataGridViewCheckBoxColumn.DataPropertyName = "Confirm";
             this.confirmDataGridViewCheckBoxColumn.HeaderText = "C";
             this.confirmDataGridViewCheckBoxColumn.MinimumWidth = 10;
@@ -282,7 +282,7 @@
             // 
             // lifetimeDataGridViewCheckBoxColumn
             // 
-            this.lifetimeDataGridViewCheckBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.lifetimeDataGridViewCheckBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.lifetimeDataGridViewCheckBoxColumn.DataPropertyName = "Lifetime";
             this.lifetimeDataGridViewCheckBoxColumn.HeaderText = "L";
             this.lifetimeDataGridViewCheckBoxColumn.MinimumWidth = 10;
@@ -293,7 +293,7 @@
             // 
             // destinationDataGridViewCheckBoxColumn
             // 
-            this.destinationDataGridViewCheckBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.destinationDataGridViewCheckBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.destinationDataGridViewCheckBoxColumn.DataPropertyName = "Destination";
             this.destinationDataGridViewCheckBoxColumn.HeaderText = "D";
             this.destinationDataGridViewCheckBoxColumn.MinimumWidth = 10;
@@ -304,7 +304,7 @@
             // 
             // commentDataGridViewTextBoxColumn
             // 
-            this.commentDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.commentDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.commentDataGridViewTextBoxColumn.DataPropertyName = "Comment";
             this.commentDataGridViewTextBoxColumn.HeaderText = "Comment";
             this.commentDataGridViewTextBoxColumn.MinimumWidth = 10;
@@ -314,7 +314,7 @@
             // 
             // sourceDataGridViewTextBoxColumn
             // 
-            this.sourceDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.sourceDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.sourceDataGridViewTextBoxColumn.DataPropertyName = "Source";
             this.sourceDataGridViewTextBoxColumn.HeaderText = "Source";
             this.sourceDataGridViewTextBoxColumn.MinimumWidth = 10;
@@ -324,7 +324,7 @@
             // 
             // typeDataGridViewTextBoxColumn
             // 
-            this.typeDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.typeDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.typeDataGridViewTextBoxColumn.DataPropertyName = "Type";
             this.typeDataGridViewTextBoxColumn.HeaderText = "Type";
             this.typeDataGridViewTextBoxColumn.MinimumWidth = 10;
@@ -334,7 +334,7 @@
             // 
             // sizeDataGridViewTextBoxColumn
             // 
-            this.sizeDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.sizeDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.sizeDataGridViewTextBoxColumn.DataPropertyName = "Size";
             this.sizeDataGridViewTextBoxColumn.HeaderText = "Size";
             this.sizeDataGridViewTextBoxColumn.MinimumWidth = 10;
@@ -344,7 +344,7 @@
             // 
             // fingerprintDataGridViewTextBoxColumn
             // 
-            this.fingerprintDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.fingerprintDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.fingerprintDataGridViewTextBoxColumn.DataPropertyName = "Fingerprint";
             this.fingerprintDataGridViewTextBoxColumn.HeaderText = "Fingerprint";
             this.fingerprintDataGridViewTextBoxColumn.MinimumWidth = 10;
